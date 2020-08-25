@@ -8,7 +8,8 @@ weatherForm.addEventListener('submit',(event)=>{
     messageOne.textContent= "loading...";
     messageTwo.textContent= "";
 
-    const fetchAddress = "http://localhost:3000";
+    //const fetchAddress = "http://localhost:3000";
+    const fetchAddress = "";
     let targetLocation = search.value;
     const fetchAddressWithQuesry = fetchAddress + "/weather?address=" + targetLocation;
 
